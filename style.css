@@ -1,0 +1,54 @@
+#box1{
+    background-color:violet;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+
+}
+#box2{
+    background-color:blueviolet;
+    height: 100px;
+    width: 100px;
+    position: relative;
+
+}
+#box3{
+    background-color:rgb(238, 130, 162);
+    height: 100px;
+    width: 100px;
+    border-top-left-radius:40px ;
+    border-bottom-right-radius: 40px;
+    position: relative;
+
+}
+#box1:hover{
+    background-color: turquoise;
+    height: 80px;
+    width: 80px;
+    border-radius: 0%  ;
+    transform: scale(0.8);
+
+}
+
+.car{
+    position: absolute;
+    top: 160px;
+    animation: movecar 10s linear infinite;
+}
+
+@keyframes movecar{
+    0%{
+        right: -100%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+.road{
+    background-color: black;
+    top: 700px;
+    height: 100px;
+    width: 10000px;
+    position: absolute;
+}
